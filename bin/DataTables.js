@@ -11,7 +11,7 @@ Main.main = function() {
 		}},{ data : "name", render : function(data2,type1,row1) {
 			return data2 + " <input type='button' />";
 		}},{ data : "position"},{ data : "salary"},{ data : "office"},{ data : "extn"},{ data : "col1"},{ data : "col2"},{ data : "col3"},{ data : "col1"},{ data : "col2"},{ data : "col3"},{ data : "col1"},{ data : "col2"},{ data : "col3"}];
-		$('#table_id').DataTable(options);
+		$("#table_id").DataTable(options);
 	});
 };
 Main.main();

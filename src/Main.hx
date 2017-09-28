@@ -84,8 +84,9 @@ class Main
 				];
 
 			
-			//new JQuery("#table_id").dataTable({data: data});
-			untyped __js__ ("$('#table_id').DataTable({0});",options);
+			new JQuery("#table_id").DataTable(options);
+			//new JQuery().sidebar();
+			//untyped __js__ ("$('#table_id').DataTable({0});",options);
 			
         });
 	}

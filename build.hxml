@@ -1,0 +1,6 @@
+-lib jQueryExtern 
+-cp src 
+-js bin/DataTables.js 
+-main Main 
+--macro js.jquery.Config.addPlugin('externs.DataTable') 
+--macro js.jquery.Config.addPlugin('externs.Semantic')

@@ -8,7 +8,7 @@
     <movie fps="0" />
     <movie width="0" />
     <movie height="0" />
-    <movie version="1" />
+    <movie version="0" />
     <movie minorVersion="0" />
     <movie platform="JavaScript" />
     <movie background="#FFFFFF" />
@@ -24,11 +24,11 @@
     <option noInlineOnDebug="False" />
     <option mainClass="Main" />
     <option enabledebug="False" />
-    <option additional="" />
+    <option additional="--macro js.jquery.Config.addPlugin('externs.DataTable')  js.jquery.Config.addPlugin('externs.Semantic')" />
   </build>
   <!-- haxelib libraries -->
   <haxelib>
-    <!-- example: <library name="..." /> -->
+    <library name="jQueryExtern" />
   </haxelib>
   <!-- Class files to compile (other referenced classes will automatically be included) -->
   <compileTargets>
@@ -45,7 +45,7 @@
   <!-- Other project options -->
   <options>
     <option showHiddenPaths="False" />
-    <option testMovie="Webserver" />
+    <option testMovie="OpenDocument" />
     <option testMovieCommand="bin/index.html" />
   </options>
   <!-- Plugin storage -->
